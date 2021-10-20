@@ -1,0 +1,15 @@
+#https://www.analyticsvidhya.com/blog/2021/08/python-tutorial-working-with-csv-file-for-data-science/
+#telegram-api 2072478147:AAE45qSS1_gmTG3Q6YBSrTdb9ep-2L2zYhk
+#https://onedrive.live.com/about/en-us/signin/
+
+
+#import csv
+#file = open("Salary_Data.csv")
+#svreader = csv.reader(file)
+#header = next(csvreader)
+#print(header)
+#rows = []
+#for row in csvreader:
+#    rows.append(row)
+#print(rows)
+#file.close()

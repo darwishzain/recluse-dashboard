@@ -37,8 +37,10 @@ tabControl.pack(expand=1, fill="both")
 #tab0
 welcomeDisplay = tk.Label(tab0, text="Welcome User 4301")
 welcomeDisplay.grid(row=0, column=0)
-meetBtn = tk.Button(tab0, text="Open GMeet",command=lambda:open.openLink(linkText="hello"))
+meetBtn = tk.Button(tab0, text="Open GMeet",command=lambda:open.openGmeet())
 meetBtn.grid(row=0, column=1)
+whatBtn = tk.Button(tab0, image = "./img/logo/wa.png",command=lambda:open.openGmeet())
+whatBtn.grid(row=0, column=2)
 
 window.mainloop()
 
